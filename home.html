@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .graph-line {
+            border-style: dashed;
+            border-width: 1px;
+        }
+        .top-line {
+            border-color: #4299E1;
+        }
+        .markings {
+            font-size: 12px;
+            color: #6B7280;
+            margin-top: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .alert-image {
+            width: 40px; 
+            height: 40px; 
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body style="margin-top:60px ;" class="bg-gray-100 flex items-center justify-center h-screen">
+
+<div class="max-w-md w-full bg-white rounded-lg shadow-lg p-8 relative">
+    <h1 style="padding-top: 50px ; position: relative; top: -50px;" class="text-2xl font-bold text-gray-800 mb-4 text-center relative -top-20 left-0 right-0 mt-16">Workout Tracker</h1>
+    <hr class="graph-line border-b border-gray-400 mb-8">
+    <hr class="graph-line border-b border-gray-400 mb-8">
+    <hr class="graph-line border-b border-gray-400 mb-8">
+    <hr class="graph-line top-line border-b border-gray-400">
+    <div class="markings">
+        <span>12:00</span>
+        <span>6:00</span>
+        <span>12:00</span>
+        <span>6:00</span>
+    </div>
+    <span style="position: relative; bottom: 120px;">900 cal</span>
+    <div style="width: 5px; height: 100px; background-color: #5BBCFF;position: relative;bottom: 150px;left: 140px;"></div>
+    <div style="width: 5px; height: 70px; background-color: #5BBCFF;position: relative;bottom: 220px;left: 160px;"></div>
+    <div style="width: 5px; height: 80px; background-color: #5BBCFF;position: relative;bottom: 300px;left: 250px;"></div>
+    <div style="width: 5px; height: 30px; background-color: #5BBCFF;position: relative;bottom: 330px;left: 260px;"></div>
+    <span style="position: relative; bottom: 470px;left: 100px;">Good job </span>
+    <span style="position: relative; bottom: 470px;left: 150px;">less than 320 cal</span>
+    <div style="position: absolute; top: 330px; left: 32px; background-color: gray;" class="max-w-sm w-full bg-white rounded-lg shadow-lg p-8 mt-8 flex items-center">
+        <img src="assests/alert.png" alt="Alert Logo" class="alert-image">
+        <p>You have burned fewer calories than yesterday. Time to get moving.</p>
+    </div>
+    <div style="position: absolute; top: 530px;" class="flex justify-between mt-8">
+        <h2 class="text-xl font-semibold text-gray-800">Upcoming Courses</h2>
+        <a style="position: absolute; right: -185px; bottom: -1px;" href="#" class="text-blue-500">See More</a>
+    </div>
+    <div style=" margin-bottom:40px ; width: 390px; height: 100px; background-color: gray; border-radius: 20px;">
+        <div style="display: flex; flex-direction: row;">
+            <div style=" background-color: black; height: 70px; width: 70px; margin-top: 15px; margin-left: 30px; border-radius: 50%;">
+                <image style="width: 100%; height: 100%; object-fit: cover;" src="assests/ex2.png"></image>
+            </div>
+
+            <h2 style="margin-top: 30px; margin-left: 30px;font-size: 20px;">UPPER BODY WORKOUT</h2>
+                
+          
+        </div>
+    </div>
+    <div style=" margin-bottom:80px ; width: 390px; height: 100px; background-color: gray; border-radius: 20px;">
+        <div style="display: flex; flex-direction: row;">
+            <div style=" background-color: black; height: 70px; width: 70px; margin-top: 15px; margin-left: 30px; border-radius: 50%;">
+                <image style="width: 100%; height: 100%; object-fit: cover;" src="assests/ex1.png"></image>
+            </div>
+
+            <h2 style="margin-top: 30px; margin-left: 30px; font-size: 20px;">FULL BODY WORKOUT</h2>
+        </div>
+    </div>
+    
+       
+</div>
+
+</body>
+</html>

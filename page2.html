@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional custom styles can be added here if needed */
+        .next-button {
+            background: radial-gradient(circle at right, #4299e1, #ffffff);
+            border-color: #4299e1; /* Blue color */
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 relative">
+
+<!-- Skip button -->
+<a href="page2.html" class="absolute top-4 md:top-8 right-4 md:right-8 bg-white text-blue-500 px-4 py-2 rounded-full shadow-md z-10 hover:underline">Skip</a>
+
+<!-- Page 1 -->
+<div class="min-h-screen flex flex-col justify-center items-center py-16 md:py-8 px-4 md:px-0 relative">
+    <!-- Image -->
+    <img src="assests/image2.jpg" alt="Image 1" class="mb-4 md:mb-8 w-full md:max-w-md rounded-lg shadow-lg">
+
+    <!-- Content -->
+    <div class="text-left md:text-center">
+        <h1 class="text-2xl md:text-4xl font-bold text-gray-800 mb-2">Get Burn</h1>
+        <p class="text-base md:text-lg text-gray-600 leading-relaxed">Let's keep burning to achieve your goals, its hurts only temporarily, if you gave up you will be in pain forever.</p>
+    </div>
+</div>
+
+<a href="createaccount.html" class="absolute bottom-6 right-4">
+    <button class="px-4 py-3 rounded-full border border-blue-500 bg-blue-100 hover:bg-blue-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </button>
+</a>
+
+</body>
+</html>

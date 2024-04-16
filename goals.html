@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Goals</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional CSS to add padding to body */
+        @media (max-width: 640px) {
+            body {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .container {
+                margin-bottom: 20px; /* Add margin bottom in mobile view */
+            }
+        }
+        /* Adjust white space */
+        .container {
+            padding: 20px;
+        }
+        /* Adjust colors */
+        .goal-box {
+            background-color: #F3F4F6; /* Grey background */
+            border-color: #CBD5E0; /* Grey border */
+        }
+        .checkbox {
+            border-color: #4299E1; /* Blue border */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<div class="max-w-md mx-auto mt-8 bg-white rounded-lg shadow-lg">
+    <div class="container">
+
+        <!-- Heading -->
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">What are your goals?</h1>
+
+        <!-- Goals List -->
+        <div class="space-y-4">
+            <!-- Goal 1 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Weight Loss</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+
+            <!-- Goal 2 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Muscle Building</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+
+            <!-- Goal 3 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Cardiovascular Health</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+
+            <!-- Goal 4 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Flexibility</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+
+            <!-- Goal 5 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Stress Reduction</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+
+            <!-- Goal 6 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Better Sleep</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+            <!-- Goal 7 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Weight training</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+            <!-- Goal 8 -->
+            <div class="flex items-center justify-between border border-gray-300 rounded-md p-3 goal-box">
+                <label class="text-gray-700">Yoga and meditation</label>
+                <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-500 border-blue-500 checkbox">
+            </div>
+        </div>
+
+        <!-- Confirm Button -->
+        <a href="home.html">
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 w-full mt-4">Confirm</button>
+        </a>
+        
+    </div>
+</div>
+
+</body>
+</html>
